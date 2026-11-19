@@ -1,0 +1,29 @@
+{
+  "trips": {
+    "raw_records": 5552994,
+    "invalid_timestamp": 0,
+    "outside_start_year": 53,
+    "end_before_start": 29,
+    "missing_ride_id": 0,
+    "duplicate_valid_id": 0,
+    "retained_trips": 5552912,
+    "missing_ridership_dates": 0,
+    "weather_unmatched_dates": 0,
+    "missing_weather_values": {
+      "temperature_mean_c": 0,
+      "rain_mm": 0,
+      "snowfall_cm": 0
+    }
+  },
+  "weather_metadata": {
+    "latitude": 41.862915,
+    "longitude": -87.64877,
+    "elevation": 179.0,
+    "utc_offset_seconds": -21600,
+    "timezone": "America/Chicago",
+    "timezone_abbreviation": "GMT-6",
+    "hourly_rows_2025": 8760,
+    "incomplete_days": 0,
+    "missing_dates": 0
+  }
+}

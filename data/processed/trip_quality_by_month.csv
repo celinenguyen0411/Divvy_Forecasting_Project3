@@ -1,0 +1,13 @@
+file,raw_records,invalid_timestamp,outside_start_year,end_before_start,missing_ride_id,duplicate_valid_id,retained_trips
+202501-tripdata.csv.zip,138689,0,53,0,0,0,138636
+202502-tripdata.csv.zip,151880,0,0,0,0,0,151880
+202503-tripdata.csv.zip,298155,0,0,0,0,0,298155
+202504-tripdata.csv.zip,371341,0,0,0,0,0,371341
+202505-tripdata.csv.zip,502456,0,0,0,0,0,502456
+202506-tripdata.csv.zip,678904,0,0,0,0,0,678904
+202507-tripdata.csv.zip,763432,0,0,0,0,0,763432
+202508-tripdata.csv.zip,790177,0,0,0,0,0,790177
+202509-tripdata.csv.zip,714759,0,0,0,0,0,714759
+202510-tripdata.csv.zip,646039,0,0,0,0,0,646039
+202511-tripdata.csv.zip,356628,0,0,29,0,0,356599
+202512-tripdata.csv.zip,140534,0,0,0,0,0,140534
