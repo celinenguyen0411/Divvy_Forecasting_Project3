@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 430"><rect width="100%" height="100%" fill="white"/>
+<text x="75" y="32" font-family="sans-serif" font-size="20">Average Divvy rides by month</text>
+<text x="20" y="207.5" transform="rotate(-90 20 207.5)" font-family="sans-serif" font-size="13">Mean rides/day</text>
+<line x1="75" y1="65.0" x2="875" y2="65.0" stroke="#ddd"/>
+<text x="67" y="69.0" text-anchor="end" font-family="sans-serif" font-size="11">28,553</text>
+<line x1="75" y1="136.25" x2="875" y2="136.25" stroke="#ddd"/>
+<text x="67" y="140.25" text-anchor="end" font-family="sans-serif" font-size="11">21,415</text>
+<line x1="75" y1="207.5" x2="875" y2="207.5" stroke="#ddd"/>
+<text x="67" y="211.5" text-anchor="end" font-family="sans-serif" font-size="11">14,277</text>
+<line x1="75" y1="278.75" x2="875" y2="278.75" stroke="#ddd"/>
+<text x="67" y="282.75" text-anchor="end" font-family="sans-serif" font-size="11">7,138</text>
+<line x1="75" y1="350.0" x2="875" y2="350.0" stroke="#ddd"/>
+<text x="67" y="354.0" text-anchor="end" font-family="sans-serif" font-size="11">0</text>
+<rect x="86.7" y="305.4" width="43.3" height="44.6" fill="#167d8d"/>
+<text x="108.3" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Jan</text>
+<text x="108.3" y="299.4" text-anchor="middle" font-family="sans-serif" font-size="11">4,473</text>
+<rect x="153.3" y="295.9" width="43.3" height="54.1" fill="#167d8d"/>
+<text x="175.0" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Feb</text>
+<text x="175.0" y="289.9" text-anchor="middle" font-family="sans-serif" font-size="11">5,425</text>
+<rect x="220.0" y="254.0" width="43.3" height="96.0" fill="#167d8d"/>
+<text x="241.7" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Mar</text>
+<text x="241.7" y="248.0" text-anchor="middle" font-family="sans-serif" font-size="11">9,617</text>
+<rect x="286.7" y="226.4" width="43.3" height="123.6" fill="#167d8d"/>
+<text x="308.3" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Apr</text>
+<text x="308.3" y="220.4" text-anchor="middle" font-family="sans-serif" font-size="11">12,379</text>
+<rect x="353.3" y="188.2" width="43.3" height="161.8" fill="#167d8d"/>
+<text x="375.0" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">May</text>
+<text x="375.0" y="182.2" text-anchor="middle" font-family="sans-serif" font-size="11">16,213</text>
+<rect x="420.0" y="124.2" width="43.3" height="225.8" fill="#167d8d"/>
+<text x="441.7" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Jun</text>
+<text x="441.7" y="118.2" text-anchor="middle" font-family="sans-serif" font-size="11">22,627</text>
+<rect x="486.7" y="104.2" width="43.3" height="245.8" fill="#167d8d"/>
+<text x="508.3" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Jul</text>
+<text x="508.3" y="98.2" text-anchor="middle" font-family="sans-serif" font-size="11">24,628</text>
+<rect x="553.3" y="95.5" width="43.3" height="254.5" fill="#167d8d"/>
+<text x="575.0" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Aug</text>
+<text x="575.0" y="89.5" text-anchor="middle" font-family="sans-serif" font-size="11">25,494</text>
+<rect x="620.0" y="112.3" width="43.3" height="237.7" fill="#167d8d"/>
+<text x="641.7" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Sep</text>
+<text x="641.7" y="106.3" text-anchor="middle" font-family="sans-serif" font-size="11">23,819</text>
+<rect x="686.7" y="142.0" width="43.3" height="208.0" fill="#167d8d"/>
+<text x="708.3" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Oct</text>
+<text x="708.3" y="136.0" text-anchor="middle" font-family="sans-serif" font-size="11">20,842</text>
+<rect x="753.3" y="231.4" width="43.3" height="118.6" fill="#167d8d"/>
+<text x="775.0" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Nov</text>
+<text x="775.0" y="225.4" text-anchor="middle" font-family="sans-serif" font-size="11">11,883</text>
+<rect x="820.0" y="304.8" width="43.3" height="45.2" fill="#167d8d"/>
+<text x="841.7" y="372" text-anchor="middle" font-family="sans-serif" font-size="12">Dec</text>
+<text x="841.7" y="298.8" text-anchor="middle" font-family="sans-serif" font-size="11">4,533</text>
+</svg>
