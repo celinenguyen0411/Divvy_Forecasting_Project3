@@ -3,6 +3,7 @@
 - The 2025 table contains 365 daily observations. Ridership averaged **15,213 rides/day** (median 15,360; standard deviation 8,552). The lowest day was **Nov 29** (1,024) and the highest was **Aug 2** (32,308)
 
 - Monthly average rides show a pronounced warm-season peak and winter trough:
+  
 | Month | Mean rides/day |
 |---|---:|
 | Jan | 4,473 |
