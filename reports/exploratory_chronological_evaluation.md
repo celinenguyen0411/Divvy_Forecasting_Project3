@@ -1,10 +1,8 @@
-# Exploratory findings and chronological evaluation
-
-## Exploratory findings
-- The 2025 table contains 365 daily observations. Ridership averaged **15,213 rides/day** (median 15,360; standard deviation 8,552). The lowest day was **Nov 29** (1,024) and the highest was **Aug 2** (32,308).
+## Exploratory findings and chronological evaluation
+### Exploratory findings
+- The 2025 table contains 365 daily observations. Ridership averaged **15,213 rides/day** (median 15,360; standard deviation 8,552). The lowest day was **Nov 29** (1,024) and the highest was **Aug 2** (32,308)
 
 - Monthly average rides show a pronounced warm-season peak and winter trough:
-
 | Month | Mean rides/day |
 |---|---:|
 | Jan | 4,473 |
@@ -40,7 +38,7 @@
 
 ![Daily rides and temperature](figures/ridership_vs_temperature.svg)
 
-## Chronological evaluation
+### Chronological evaluation
 - The October 1–December 31, 2025 holdout covers 92 days. The Ridge model is fit once using eligible January–September dates. At the start of each seven-day block, both forecasts use actual rides from the previous week, which are already available. The final block contains only December 31
 - The baseline repeats the count from seven days earlier. The Ridge model in [forecasting.ipynb](../forecasting.ipynb) uses that same count along with weekday indicators and annual sine and cosine terms. The model standardizes the predictors using the training period and uses a Ridge penalty of 10. Both forecasts use calendar dates and past ride counts only
 
@@ -50,10 +48,9 @@
 | Team Ridge model | 3,511 | 4,400 | +1,525 | 28.3% |
 
 - The team Ridge model’s MAE is 2.2% higher than the baseline. Its RMSE is 11.9% lower. MAE measures the average size of a daily miss. RMSE gives more weight to large misses. Both forecasts overpredicted on average in this holdout, so taking their daily estimates at face value could lead to staging more bikes than needed. WAPE is total absolute error divided by total actual rides
-
 ![Holdout forecasts](figures/chronological_holdout_predictions.svg)
 
-## Limitations and next steps
+### Limitations and next steps
 - The forecast is citywide and daily; it does not determine station-level bike placement.
 - The evaluation covers one late-year period in one calendar year. Metrics may not generalize to another year.
 - The operational evaluation intentionally excludes weather predictors. Add weather only after verifying local-date/DST alignment and using weather forecasts archived or available at each issue date.
